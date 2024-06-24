@@ -8,17 +8,19 @@ const showError = document.getElementById('img-error')
 correctEmail.addEventListener('click',function(){
     const emailId = emailInput.value
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-    if(emailPattern.test(emailId))
-        {
-            displayMsg.textContent='Thank you for subscribing to our newsletter' 
-            displayMsg.style.color='hsl(168, 85%, 37%)'
-            showError.style.display='none'
-            console.log('correct')
-        }
-    else{
-        console.log('incorrect')
-        displayMsg.innerHTML= 'Please provide a valid email'
-        displayMsg.style.color='hsl(0, 93%, 68%)'
-        showError.style.display='inline'
-    } 
+    if (emailId.trim() === "") {
+        displayMsg.textContent = 'Email Id required';
+        displayMsg.style.color = 'hsl(0, 93%, 68%)';
+        showError.style.display = 'inline';        
+    } else if (emailPattern.test(emailId)) {
+        displayMsg.textContent = 'Thank you for subscribing to our newsletter';
+        displayMsg.style.color = 'hsl(168, 85%, 37%)';
+        showError.style.display = 'none';      
+    } else {
+        displayMsg.textContent = 'Please provide a valid email';
+        displayMsg.style.color = 'hsl(0, 93%, 68%)';
+        showError.style.display = 'inline';
+        console.log('incorrect');
+    }   
+
 })      
