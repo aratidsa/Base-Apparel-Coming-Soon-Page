@@ -29,7 +29,7 @@ In this small project, build out Coming Soon Page and get it looking as close to
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/aratidsa/Base-Apparel-Coming-Soon-Page
 - Live Site URL: 
 
 ## My process
