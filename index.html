@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Apparel Design | Frontend Mentor</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main Conatiner -->
+    <main class="main-container">
+        <!-- Logo -->
+        <section class="logo-section">
+            <div>
+                <img src="image/logo.svg" alt="Logo Image" class="logo-img">
+            </div>
+        </section>
+        <section class="image-section">
+            <div>
+                <img src="image/hero-mobile.jpg" alt="Hero Mobile" class="hero-mobile">
+                <img src="image/hero-desktop.jpg" alt="Hero Desktop" class="hero-desktop">
+            </div>                       
+        </section>       
+        <section class="content-section">
+             <!-- Content -->         
+            <div class="content-details">
+                <div class="content-title">
+                    <h1 class="title">
+                        <span class="part-1">We're <br></span>
+                        <span class="part-2">coming <br></span> 
+                        <span class="part-3">soon </span></h1>
+                </div>
+                <!-- Information Content -->
+                <p class="info-content">Hello fellow shoppers! We're currently building our new fashion store. 
+                    Add your email below to stay up-to-date with announcements and our launch deals.</p>    
+                <!-- Email Section -->
+                <div class="email-details">
+                    <input type="email" placeholder="Email Address" class="email-box" id="email-work">
+                    <div>
+                        <img src="image/icon-error.svg" alt="error-img" id="img-error">
+                    </div>
+                    <button class="btn" id="check-email">
+                        <div>
+                            <img src="image/icon-arrow.svg" alt="arrow-icon" class="arrow-img">
+                        </div>
+                    </button>
+                </div> 
+                <!-- Message --> 
+                <div class="msg" id="display-msg"></div>              
+            </div> 
+        </section>
+    </main>
+    <footer>
+        <p class="attribution">Challenge by <a href="https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0">Frontend Mentor</a>. 
+            Coded by <a href="#">Arati D'sa</a>.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
