@@ -340,13 +340,12 @@ footer{
     }
     /* Logo section */
     .logo-section{
-        margin-top:7.3%;
-        
+        margin-top:7.3%;        
     }
     .logo-img{
         width:19%;
         margin-top:-0.38rem;
-        margin-left:24%;
+        margin-left:20%;
     }
     /* Content section */
     .content-details{
@@ -354,8 +353,8 @@ footer{
     }
     .content-title{
         width:65%;
-        margin-left:11.25rem;
-        margin-top:0.63rem;
+        margin-left:9.38rem;
+        margin-top:3.13rem;
     }
     /* Title */
     .title{
@@ -378,20 +377,20 @@ footer{
     }
     /* Info Content */
     .info-content{
-        margin-top:16.5%;
+        margin-top:19.5%;
         font-size:var(--fs-16);
         padding:0px;
         font-weight:var(--fw-600);
         width:50%;
         text-align: left;
-        margin-left:28%;
+        margin-left:24%;
         line-height:1.7;
     }
     /* Email Details */
     .email-details{
         margin-top:-1.88rem;
         width:55.7%;
-        margin-left:28%;
+        margin-left:24%;
     }
     .email-box{
         padding:0.88rem 1.88rem;
