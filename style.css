@@ -175,7 +175,7 @@ body{
     font-weight:var(--fw-600);
 }
 /* Footer */
-footer{
+/* footer{
     font-size:var(--fs-12);
     text-align:center;
 }
@@ -183,7 +183,7 @@ footer{
     text-decoration: none;
     color:var(--clr-softRed);
     font-weight:var(--fw-600);
-}
+} */
 
 @media (min-width:376px) 
 {
@@ -325,9 +325,9 @@ footer{
         margin-top:26%;
     }
     /* Footer */
-    footer{
+  /*   footer{
         margin-top:5%;
-    }    
+    }  */   
 }
 
 @media (min-width:1400px)
@@ -409,8 +409,8 @@ footer{
     .msg{
         margin-left:23.5%;
     }   
-    footer{
+   /*  footer{
         margin-top:0%;
         display:none;
-    }    
+    }     */
 }
