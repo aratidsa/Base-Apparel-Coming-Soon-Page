@@ -354,7 +354,7 @@ footer{
     .content-title{
         width:65%;
         margin-left:9.38rem;
-        margin-top:3.13rem;
+        margin-top:50px;
     }
     /* Title */
     .title{
@@ -409,4 +409,8 @@ footer{
     .msg{
         margin-left:23.5%;
     }   
+    footer{
+        margin-top:0%;
+        display:none;
+    }    
 }
