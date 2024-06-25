@@ -24,8 +24,11 @@ In this small project, build out Coming Soon Page and get it looking as close to
 
 ### Screenshot
 - Desktop
-  
+  ![screencapture-127-0-0-1-5500-index-html-2024-06-25-12_34_41](https://github.com/aratidsa/Base-Apparel-Coming-Soon-Page/assets/128802362/093e19d3-73d2-47d5-859a-a3b3d586a32c)
+
 - Mobile
+  
+   ![screencapture-127-0-0-1-5500-index-html-2024-06-25-12_34_07](https://github.com/aratidsa/Base-Apparel-Coming-Soon-Page/assets/128802362/bd14a40f-ab88-4722-85d2-1a15c04acf6b)
 
 ### Links
 
