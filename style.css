@@ -268,6 +268,8 @@ footer{
         grid-template-columns:50% 50%;
         grid-template-rows: auto auto;
         background:url('image/bg-pattern-desktop.svg') top left no-repeat; 
+        background-size: 60%;
+        
     }
     /* Logo section */
     .logo-section{
@@ -333,16 +335,18 @@ footer{
     /* Main Container */
     .main-container{
         display: grid;
-        grid-template-columns:50% 50%; 
+        grid-template-columns:60% 40%; 
         grid-template-rows:auto auto; 
     }
     /* Logo section */
     .logo-section{
-        margin-top:9.3%;
+        margin-top:7.3%;
+        
     }
     .logo-img{
-        width:21%;
+        width:19%;
         margin-top:-0.38rem;
+        margin-left:24%;
     }
     /* Content section */
     .content-details{
@@ -350,8 +354,8 @@ footer{
     }
     .content-title{
         width:65%;
-        margin-left:8.75rem;
-        margin-top:-190px;
+        margin-left:11.25rem;
+        margin-top:0.63rem;
     }
     /* Title */
     .title{
@@ -374,20 +378,20 @@ footer{
     }
     /* Info Content */
     .info-content{
-        margin-top:20%;
+        margin-top:16.5%;
         font-size:var(--fs-16);
         padding:0px;
         font-weight:var(--fw-600);
-        width:62%;
+        width:50%;
         text-align: left;
-        margin-left:21%;
+        margin-left:28%;
         line-height:1.7;
     }
     /* Email Details */
     .email-details{
         margin-top:-1.88rem;
         width:55.7%;
-        margin-left:20.5%;
+        margin-left:28%;
     }
     .email-box{
         padding:0.88rem 1.88rem;
