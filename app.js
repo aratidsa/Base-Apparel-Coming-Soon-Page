@@ -20,7 +20,6 @@ correctEmail.addEventListener('click',function(){
         displayMsg.textContent = 'Please provide a valid email';
         displayMsg.style.color = 'hsl(0, 93%, 68%)';
         showError.style.display = 'inline';
-        console.log('incorrect');
     }   
 
 })      
